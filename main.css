@@ -100,7 +100,7 @@ footer{
     box-sizing: border-box;
     height: 300px;
     width: auto;
-    margin: 64px 32px;
+    margin: 32px 32px;
     text-align: center;
     
 }
@@ -108,12 +108,13 @@ footer{
 .banner h3 {
     font-size: 30px;
     text-align: justify;
-    margin: auto 32px;
+    margin: 0;
     margin-bottom: 10px;
 }
 .banner h3 span{
     background-color: #F3F2F0;
     color: #151515;
+
     
 }
 
@@ -122,66 +123,20 @@ footer{
     opacity: 0.3;
     margin-top: 0;
     font-weight: 100;
+    text-align: left;
+    font-size: 14px;
 
 }
 
-.banner .photo{
-    margin:  auto 32px;
-    height: 100px;
-    width: 100px;
-    background-color: #F3F2F0;
+.photo{
+    height: 150px;
+    width: 150px;
+    background-image: url(photo.png);
+    background-repeat: none;
+    background-size: cover;
+    
     border-radius: 50%;
-    
-    
+    margin: auto auto;
 }
 
-.banner p {
-    
-    text-align: center;
-    margin: 32px 32px;
-    opacity: 0.7;
-   
-}
-.banner b {
-    color:#F3F2F0;
-    opacity: 1;
-}
-
-.smicon{
-    background-color: #F3F2F0;
-    height: 50px;
-    width: 50px;
-    float: right;
-    
-}
-
-.photobox{
-    margin-top: 50px
-}
-
-.photobox ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    float: right;
-    position: relative;
-    top: -135px;
-    right: 100px;
-    text-align: justify;
-}
-
-.photobox ul li div{
-    height: 50px;
-    width: 50px;
-    background-color: #F3F2F0;
-    position: relative;
-    top: 30px;
-    right: 70px;
-    border-radius: 50%;
-    margin: 0px;
-}
-.photobox ul li{
-    position: relative;
-    left: 65px;
-}
 
