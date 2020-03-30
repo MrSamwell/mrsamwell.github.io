@@ -11,50 +11,54 @@
     <body> 
         <div id="app">
 
-<div class="banner">
+<div class="banner" id="boxes">
     <h3>Olá,<br> meu nome é <br><span>Samuel Barbosa</span></h3>
     <h4>/* Desenvolvedor Web / Web Designer */</h4>
-    <div class="photo"></div>
-    
-    
-    
-    
-
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum vestibulum massa nec consequat. Vestibulum nec vestibulum ante, eu dignissim sem. Etiam ullamcorper auctor arcu, non hendrerit augue hendrerit sit amet. Aliquam rutrum auctor convallis. Donec sollicitudin mi nec dignissim malesuada. Vestibulum dui ex, dignissim quis faucibus sit amet, pretium imperdiet lectus. Praesent tincidunt mi purus, ac gravida enim mollis vitae. Morbi vestibulum dui in feugiat commodo.</p>
+    <div class="containerphoto"> 
+       <div class="contain"> <div class="photo"></div></div>
+        <div class="icons"><ul>
+            <li><img src="icongit.png">Github</li>
+            <li><img src="iconinsta.png">Instagram</li>
+            
+            
+          </ul></div>
+</div>
    
-
     
 
 </div>
 
+<div class="wrapper" id="boxes">
+            <div class="container">
+                <h3 class="header">Projects</h3>    
+                            <card
+                            v-for="card in cardProjects"
+                            v-bind:card="card"
+                            v-bind:key="card.id"
+                            v-bind:title="card.title"
+                            v-bind:describe="card.describe"
+                            v-bind:tecno = "card.tecno"
+                            v-bind:link = "card.link"
+                            ></card> 
+                </div>
 
-<div class="container">
-    <h3 class="header">Projects</h3>    
+                <div class="container">
+                    <h3 class="header">Blog</h3>
                 <card
-                v-for="card in cardProjects"
-                v-bind:card="card"
-                v-bind:key="card.id"
-                v-bind:title="card.title"
-                v-bind:describe="card.describe"
-                v-bind:tecno = "card.tecno"
-                v-bind:link = "card.link"
+                            v-for="card in cardBlog"
+                             v-bind:card="card"
+                            v-bind:key="card.id"
+                            v-bind:title="card.title"
+                            v-bind:describe="card.describe"
+                            v-bind:tecno = "card.tecno"
+                            v-bind:link = "card.link"
                 ></card> 
-    </div>
-
-    <div class="container">
-        <h3 class="header">Blog</h3>
-       <card
-       v-for="card in cardBlog"
-       v-bind:card="card"
-       v-bind:key="card.id"
-       v-bind:title="card.title"
-       v-bind:describe="card.describe"
-       v-bind:tecno = "card.tecno"
-       v-bind:link = "card.link"
-       ></card> 
+            </div>
 </div>
-    
 <footer>Designed and developed by me<br>@MrSamwell</footer>
 </div>
+
 
     <script src="main.js"></script>    
     </body>
