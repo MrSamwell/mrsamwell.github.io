@@ -1,7 +1,7 @@
 Vue.component('card', {
     props: ['card'],
     template: `
-    <a :href='card.link'>
+    
     <div class="card">
     
     <h5>{{card.tecno}}</h5>
@@ -9,7 +9,7 @@ Vue.component('card', {
      <p>{{card.describe}}</p>
         <a :href="card.link" class="linkgit">Ver no git</a>
         
-        </div>   </a>  
+        </div>     
     `
   });
 

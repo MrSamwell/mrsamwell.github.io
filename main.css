@@ -98,10 +98,10 @@ footer{
 
 .banner{
     box-sizing: border-box;
-    height: 300px;
+    
     width: auto;
     margin: 32px 32px;
-    text-align: center;
+    
     
 }
 
@@ -120,7 +120,7 @@ footer{
 
 
 .banner h4{
-    opacity: 0.3;
+    opacity: 0.7;
     margin-top: 0;
     font-weight: 100;
     text-align: left;
@@ -129,14 +129,24 @@ footer{
 }
 
 .photo{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     background-image: url(photo.png);
     background-repeat: none;
     background-size: cover;
     
     border-radius: 50%;
     margin: auto auto;
+}
+
+.inline-block{
+    position: re;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: solid 1px blue;
+    width: 48%;
+    display: inline-block;
 }
 
 
