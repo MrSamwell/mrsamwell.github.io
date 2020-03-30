@@ -27,13 +27,15 @@ body{
     padding:0 14px;
     line-height: 1em;
     border-radius: 2px;
+    border: 0px solid white;
+   transition: 0.5s;
    
 }
 
 .card:hover{
    
     margin: -10px 12px -10px 42px;
-    transition: 0.7s;
+    
     border-left: 10px solid  rgb(255, 255, 255, 0.2);
     
 }
