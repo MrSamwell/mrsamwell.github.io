@@ -58,7 +58,7 @@ Vue.component('card', {
             tecno: 'Html + Css + Javascript',
             title: `Don't divide by zero`,
             describe:`Just a calculator. But don't divide by zero, tho`,
-            link:'#'
+            link:''
         }
         ]
 
