@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Samuel Barbosa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+
+    <body> 
+        <div id="app">
+
+<div class="banner">
+    <h3>Olá,<br> meu nome é <br><span>Samuel Barbosa</span></h3>
+    <h4>/* Desenvolvedor Web / Web Designer */</h4>
+    <div class="photobox">
+        <div class="photo"></div>
+        <ul>
+            <li>
+                <a><div></div>Github</a>
+            </li>
+            <li>
+                <a><div></div>Instagram</a>
+            </li>
+        </ul>
+    </div>
+
+    
+
+   
+
+    
+
+</div>
+
+<div class="container">
+    <h3 class="header">Projects</h3>    
+                <card
+                v-for="card in cardProjects"
+                v-bind:card="card"
+                v-bind:key="card.id"
+                v-bind:title="card.title"
+                v-bind:describe="card.describe"
+                v-bind:tecno = "card.tecno"
+                v-bind:link = "card.link"
+                ></card> 
+    </div>
+
+    <div class="container">
+        <h3 class="header">Blog</h3>
+       <card
+       v-for="card in cardBlog"
+       v-bind:card="card"
+       v-bind:key="card.id"
+       v-bind:title="card.title"
+       v-bind:describe="card.describe"
+       v-bind:tecno = "card.tecno"
+       v-bind:link = "card.link"
+       ></card> 
+</div>
+    
+<footer>Designed and developed by me<br>@MrSamwell</footer>
+</div>
+
+    <script src="main.js"></script>    
+    </body>
+</html>
