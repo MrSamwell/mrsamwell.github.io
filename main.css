@@ -96,6 +96,7 @@ footer{
 .banner{
     box-sizing: border-box;
     width: auto;
+    
     margin: 32px 32px;  
 }
 
@@ -160,9 +161,7 @@ footer{
     right: 12px;
 }
 
-#boxes{
-    height: 100%;
-}
+
 
 @media only screen and (min-width: 768px) {
  .card{
@@ -174,7 +173,8 @@ footer{
     #boxes{
         content: "";
         display: inline-block;
-        clear: both;}
+        clear: both;
+        height: 90%;}
     .wrapper{
         float: right;;
       height:100%; 
