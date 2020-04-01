@@ -177,6 +177,13 @@ footer{
  .card{
      padding: 0 3%;
  }
+ .containerphoto{
+     position: relative;
+     bottom: 2em;
+ }
+ .banner{
+     margin: 7%;
+ }
  .banner p{
      width: 50%;
      display: inline-block;
@@ -232,7 +239,7 @@ footer{
     .containerphoto{
         width: 100%; 
         margin-top:0%; 
-        padding: 5% 0%;
+        padding: 15% 0% 5% 0%;
        
     }
     .contain{
@@ -286,5 +293,8 @@ footer{
 @media only screen and (min-width: 1400px) {
     .icons{
         margin-right: 5%;
+    }
+    .containerphoto{
+        padding: 5% 0%;
     }
 }
