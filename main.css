@@ -104,12 +104,12 @@ footer{
     text-align: justify;
     text-justify: newspaper;
     margin-bottom: 10%;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 2em;
 }
 
 .banner h3 {
-    font-size: 30px;
+    font-size: 2em;
     text-align: justify;
     margin: 0;
     margin-bottom: 10px;
@@ -125,7 +125,7 @@ footer{
     margin-top: 0;
     font-weight: 100;
     text-align: left;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .photo{
@@ -222,7 +222,7 @@ footer{
         opacity: 0.8;
         font-weight: 100;
         width: 80%;
-        font-size: 18px;
+        font-size: 1.05em;
         line-height: 2em;
         
     }
