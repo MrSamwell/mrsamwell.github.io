@@ -102,8 +102,10 @@ footer{
 
 .banner p{
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: newspaper;
     margin-bottom: 10%;
+    font-size: 14px;
+    line-height: 2em;
 }
 
 .banner h3 {
@@ -179,12 +181,15 @@ footer{
      width: 50%;
      display: inline-block;
      padding-right: 4%;
+     margin-bottom: 0;
  }
  .containerphoto{
      width: 40%;
      display: inline-block;
      padding-left: 4%;
  }
+
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -207,15 +212,18 @@ footer{
         padding-left: 10%;
         padding-top: 3%;
         margin: 2% 2%;
+
     }
 
     .banner p{
+        margin-bottom: 5%;
         text-align: justify;
         text-justify: newspaper;
         opacity: 0.8;
         font-weight: 100;
         width: 80%;
-        font-size: 20px;
+        font-size: 18px;
+        line-height: 2em;
         
     }
     footer{
@@ -224,7 +232,7 @@ footer{
     .containerphoto{
         width: 100%; 
         margin-top:0%; 
-        padding: 25% 0%;
+        padding: 5% 0%;
        
     }
     .contain{
