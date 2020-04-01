@@ -144,8 +144,8 @@ footer{
     
 }
 .icons ul li{
-    line-height: 3em;
-    margin-left: 20px;
+    line-height: 3.5em;
+    margin-left: 10px;
 
     
 }
@@ -157,8 +157,10 @@ footer{
 
 .icons img{
     position: relative;
-    top: 12px;
+    top: 10px;
     right: 12px;
+    height: 30px;
+    width: 30px;
 }
 
 
@@ -215,7 +217,9 @@ footer{
     }
     .containerphoto{
         width: 100%; 
-        margin-top:10%; 
+        margin-top:0%; 
+        padding: 25% 0%;
+       
     }
     .contain{
         display: inline-block;
@@ -225,6 +229,14 @@ footer{
         display: inline-block;
         
     }
+    .icons ul{
+        margin: 0;
+        
+    }
+   .icons img{
+       height: 40px;
+       width: 40px;
+   }
   
     
     body{
@@ -244,4 +256,19 @@ footer{
         -ms-overflow-style: none;
     }
 
+    .icons ul li {
+        margin-left: 1px;
+    }
+    .icons ul{
+        padding-left: 4%;
+    }
+   
+   
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .icons{
+        margin-right: 5%;
+    }
 }
