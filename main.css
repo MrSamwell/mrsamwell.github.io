@@ -277,7 +277,9 @@ footer{
         padding-left: 4%;
     }
    
-   
+.banner h3{
+    font-size: 2.75em;
+}   
 
 }
 
