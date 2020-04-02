@@ -1,7 +1,7 @@
 Vue.component('card', {
     props: ['card'],
     template: `
-    <a href="card.page">
+    <a :href="card.page">
     <div class="card">
     
     <h5>{{card.tecno}}</h5>
