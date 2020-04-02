@@ -31,7 +31,7 @@
 
 <div class="wrapper" id="boxes">
             <div class="container">
-                <h3 class="header">Projects</h3>    
+                <h3 class="header">Projetos</h3>    
                             <card
                             v-for="card in cardProjects"
                             v-bind:card="card"
@@ -40,6 +40,7 @@
                             v-bind:describe="card.describe"
                             v-bind:tecno = "card.tecno"
                             v-bind:link = "card.link"
+                            v-bind:page ="card.page"
                             ></card> 
                 </div>
 
@@ -53,6 +54,7 @@
                             v-bind:describe="card.describe"
                             v-bind:tecno = "card.tecno"
                             v-bind:link = "card.link"
+                            v-bind:page ="card.page"
                 ></card> 
             </div>
 </div>
