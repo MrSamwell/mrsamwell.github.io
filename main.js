@@ -18,11 +18,11 @@ Vue.component('card', {
     cardProjects:[
     {
         id: '1',
-        tecno: 'Html + Css + Javascript',
-        title: `Don't divide by zero`,
-        describe:`Just a calculator. But don't divide by zero, tho`,
-        link:'#',
-        page:'#'
+        tecno: 'Javascript + Vue js',
+        title: `To-do App`,
+        describe:`A to-do list app with LocalStorage`,
+        link:'https://github.com/MrSamwell/To-do-app',
+        page:'https://mrsamwell.github.io/To-do-app/'
     },
     {
         id: '2',
