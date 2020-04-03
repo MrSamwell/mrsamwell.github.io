@@ -1,13 +1,13 @@
 Vue.component('card', {
     props: ['card'],
     template: `
-    <a :href="card.page">
+    <a :href="card.page" target="_blank">
     <div class="card">
     
     <h5>{{card.tecno}}</h5>
     <h3>{{card.title}}</h3>
      <p>{{card.describe}}</p>
-        <a :href="card.link" class="linkgit">Ver repositório</a>
+        <a :href="card.link" class="linkgit" target="_blank">Ver repositório</a>
         
         </div>   </a>  
     `
