@@ -106,6 +106,7 @@ footer{
     margin-bottom: 10%;
     font-size: 1em;
     line-height: 2em;
+    
 }
 
 .banner h3 {
@@ -129,8 +130,8 @@ footer{
 }
 
 .photo{
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     background-image: url(photo.png);
     background-repeat: none;
     background-size: cover;
@@ -148,27 +149,36 @@ footer{
     width: 60%;
     float: right;
     height: 120px;
-   
-    
+    font-size: 1em;
 }
 .icons ul li{
-    line-height: 3.5em;
+    line-height: 2.5em;
     margin-left: 10px;
-
     
 }
 
 .icons ul {
     list-style: none;
      margin: 0px;
+     padding-inline-start: 15px;
+    
 }
 
-.icons img{
+.icons svg{
     position: relative;
-    top: 10px;
-    right: 12px;
-    height: 30px;
-    width: 30px;
+    top: 3px;
+    right: 8px;
+    height: 1.2em;
+    width: 1.2em;
+    fill: #F3F2F0;
+}
+.icons svg:nth-child(2){
+    fill:#F3F2F0;
+    position: relative;
+    right: -2px;
+    height: 0.8em;
+    width: 0.8em;
+    opacity: 0.5;
 }
 
 
