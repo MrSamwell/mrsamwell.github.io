@@ -6,6 +6,10 @@ html, body{
     scroll-behavior: smooth;
 }
 
+.tab{
+    margin-left: 8%;
+}
+
 body{
     background-color: #151515;
     color: #F3F2F0;
@@ -104,7 +108,7 @@ footer{
     text-align: justify;
     text-justify: newspaper;
     margin-bottom: 10%;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 2em;
    font-weight: 300;
     
@@ -233,14 +237,14 @@ footer{
 
     }
 
+  
     .banner p{
-        margin-bottom: 5%;
-        text-align: justify;
-        text-justify: newspaper;
-        opacity: 0.8;
+        margin-bottom: 3%;
+        text-align: left;
+        opacity: 0.9;
         font-weight: 100;
         width: 80%;
-        font-size: 1.05em;
+        font-size: 0.9em;
         line-height: 2em;
         
     }
