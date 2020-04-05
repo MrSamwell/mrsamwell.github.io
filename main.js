@@ -18,19 +18,19 @@ Vue.component('card', {
     cardProjects:[
     {
         id: '1',
-        tecno: 'Javascript + Vue js',
+        tecno: 'Javascript with Vue js',
         title: `To-do App`,
-        describe:`A to-do list app with LocalStorage`,
+        describe:`A to-do list app with LocalStorage.`,
         link:'https://github.com/MrSamwell/To-do-app',
         page:'https://mrsamwell.github.io/To-do-app/'
     },
     {
         id: '2',
-        tecno: 'Html + Css + Javascript',
-        title: `Don't divide by zero`,
-        describe:`Just a calculator. But don't divide by zero, tho`,
-        link:'#',
-        page:'#'
+        tecno: 'Javascript with Vue js',
+        title: `Border-radius Generator`,
+        describe:`A tool for designers and developers to preview the border-radius and create forms with it.`,
+        link:'https://github.com/MrSamwell/borderradius-generator',
+        page:'https://mrsamwell.github.io/borderradius-generator/'
     },
     {
         id: '3',
