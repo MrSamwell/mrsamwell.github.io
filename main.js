@@ -34,9 +34,9 @@ Vue.component('card', {
     },
     {
         id: '3',
-        tecno: 'Html + Css + Javascript',
-        title: `Don't divide by zero`,
-        describe:`Just a calculator. But don't divide by zero, tho`,
+        tecno: '...',
+        title: `Coming Soon.`,
+        describe:`Wait for it.`,
         link:'#',
         page:'#'
     }
@@ -44,25 +44,25 @@ Vue.component('card', {
     cardBlog:[
         {
             id: '1',
-            tecno: 'Html + Css + Javascript',
-            title: `Don't divide by zero`,
-            describe:`Just a calculator. But don't divide by zero, tho`,
+            tecno: '...',
+            title: `Coming Soon.`,
+            describe:`Wait for it.`,
             link:'#',
             page:'#'
         },
         {
             id: '2',
-            tecno: 'Html + Css + Javascript',
-            title: `Don't divide by zero`,
-            describe:`Just a calculator. But don't divide by zero, tho`,
+            tecno: '...',
+            title: `Coming Soon.`,
+            describe:`Wait for it.`,
             link:'#',
             page:'#'
         },
         {
             id: '3',
-            tecno: 'Html + Css + Javascript',
-            title: `Don't divide by zero`,
-            describe:`Just a calculator. But don't divide by zero, tho`,
+            tecno: '...',
+            title: `Coming Soon.`,
+            describe:`Wait for it.`,
             link:'',
             page:'#'
         }
