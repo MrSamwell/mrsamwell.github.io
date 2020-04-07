@@ -18,25 +18,25 @@ Vue.component('card', {
     cardProjects:[
     {
         id: '1',
-        tecno: 'Javascript with Vue js',
+        tecno: 'Javascript +Vue js',
         title: `To-do App`,
-        describe:`A to-do list app with LocalStorage.`,
+        describe:`Uma ferramenta que permite a criação de uma lista de tarefas. Os dados são armazenados em localStorage.`,
         link:'https://github.com/MrSamwell/To-do-app',
         page:'https://mrsamwell.github.io/To-do-app/'
     },
     {
         id: '2',
-        tecno: 'Javascript with Vue js',
-        title: `Border-radius Generator`,
-        describe:`A tool for designers and developers to preview the border-radius and create forms with it.`,
+        tecno: 'Javascript + Vue js',
+        title: `Gerador de Border-radius`,
+        describe:`Uma ferramenta para desenvolvedores e designers. Previsualize a propriedade border-radius e crie formas arredondadas.`,
         link:'https://github.com/MrSamwell/borderradius-generator',
         page:'https://mrsamwell.github.io/borderradius-generator/'
     },
     {
         id: '3',
         tecno: '...',
-        title: `Coming Soon.`,
-        describe:`Wait for it.`,
+        title: `Em breve.`,
+        describe:`Aguarde.`,
         link:'#',
         page:'#'
     }
@@ -45,24 +45,24 @@ Vue.component('card', {
         {
             id: '1',
             tecno: '...',
-            title: `Coming Soon.`,
-            describe:`Wait for it.`,
+            title: `Em breve.`,
+            describe:`Aguarde.`,
             link:'#',
             page:'#'
         },
         {
             id: '2',
             tecno: '...',
-            title: `Coming Soon.`,
-            describe:`Wait for it.`,
+            title: `Em breve.`,
+            describe:`Aguarde.`,
             link:'#',
             page:'#'
         },
         {
             id: '3',
             tecno: '...',
-            title: `Coming Soon.`,
-            describe:`Wait for it.`,
+            title: `Em breve.`,
+            describe:`Aguarde.`,
             link:'',
             page:'#'
         }
