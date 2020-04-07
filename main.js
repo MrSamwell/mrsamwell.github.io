@@ -28,7 +28,7 @@ Vue.component('card', {
         id: '2',
         tecno: 'Javascript + Vue js',
         title: `Gerador de Border-radius`,
-        describe:`Uma ferramenta para desenvolvedores e designers. Previsualize a propriedade border-radius e crie formas arredondadas.`,
+        describe:`Ferramenta para desenvolvedores e designers. Previsualize a propriedade de arredondamento de bordas.`,
         link:'https://github.com/MrSamwell/borderradius-generator',
         page:'https://mrsamwell.github.io/borderradius-generator/'
     },
