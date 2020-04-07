@@ -108,8 +108,7 @@ footer{
 }
 
 .banner p{
-    text-align: justify;
-    text-justify: newspaper;
+    text-align:left;
     margin-bottom: 10%;
     font-size: 0.8em;
     line-height: 2em;
