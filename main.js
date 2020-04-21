@@ -34,11 +34,11 @@ Vue.component('card', {
     },
     {
         id: '3',
-        tecno: '...',
-        title: `Em breve.`,
-        describe:`Aguarde.`,
-        link:'#',
-        page:'#'
+        tecno: 'Javascript',
+        title: `Editor de Texto WYSIWYG`,
+        describe:`Editor de texto Rich Text. permite ao usuário a adição e formatação do contéudo de uma div.`,
+        link:'https://github.com/MrSamwell/note-app',
+        page:'https://mrsamwell.github.io/note-app/'
     }
     ],
     cardBlog:[
