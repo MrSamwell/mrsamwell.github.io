@@ -18,25 +18,25 @@ Vue.component('card', {
     cardProjects:[
     {
         id: '1',
-        tecno: 'Javascript +Vue js',
+        tecno: 'JAVASCRIPT',
         title: `To-do App`,
-        describe:`Uma ferramenta que permite a criação de uma lista de tarefas. Os dados são armazenados em localStorage.`,
+        describe:`Uma ferramenta que permite a criação de lista de tarefas.`,
         link:'https://github.com/MrSamwell/To-do-app',
         page:'https://mrsamwell.github.io/To-do-app/'
     },
     {
         id: '2',
-        tecno: 'Javascript + Vue js',
+        tecno: 'JAVASCRIPT',
         title: `Gerador de Border-radius`,
-        describe:`Ferramenta para desenvolvedores e designers. Previsualize a propriedade de arredondamento de bordas.`,
+        describe:`Previsualize a propriedade de arredondamento de bordas.`,
         link:'https://github.com/MrSamwell/borderradius-generator',
         page:'https://mrsamwell.github.io/borderradius-generator/'
     },
     {
         id: '3',
-        tecno: 'Javascript',
-        title: `Editor de Texto WYSIWYG`,
-        describe:`Editor de texto Rich Text. Permite ao usuário a adição e formatação do contéudo de uma div.`,
+        tecno: 'JAVASCRIPT',
+        title: `Editor Rich Text`,
+        describe:`Permite ao usuário a adição e formatação do contéudo de uma div.`,
         link:'https://github.com/MrSamwell/note-app',
         page:'https://mrsamwell.github.io/note-app/'
     }
