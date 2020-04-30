@@ -37,14 +37,15 @@ body{
     line-height: 1em;
     border-radius: 2px;
     border: 0px solid white;
-   transition: 0.5s;
+   transition: 0.3s;
 }
 
 
 
 
 .card h5{
-    font-size: 12px;
+    font-size: 10px;
+    padding-bottom: 0.5em;
     line-height: 1em;
     letter-spacing: 0.25em;
     position: relative;
@@ -233,6 +234,12 @@ footer{
         opacity: 0.3;
       }
     .container:nth-child(1) .card:hover{
+        opacity: 1;
+      }
+      .container:nth-child(2):hover .card{
+        opacity: 0.3;
+      }
+    .container:nth-child(2) .card:hover{
         opacity: 1;
       }
     .card:hover{ 
