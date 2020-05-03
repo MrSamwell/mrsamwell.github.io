@@ -39,6 +39,22 @@ Vue.component('card', {
         describe:`Permite ao usuário a adição e formatação do contéudo de uma div.`,
         link:'https://github.com/MrSamwell/note-app',
         page:'https://mrsamwell.github.io/note-app/'
+    },
+    {
+        id: '4',
+        tecno: 'VUE JS AND BULMA',
+        title: `Weather-App`,
+        describe:`Previsão do tempo da sua localização atual.`,
+        link:'https://github.com/MrSamwell/weather-app',
+        page:'https://mrsamwell.github.io/weather-app/'
+    },
+    {
+        id: '5',
+        tecno: 'VUE JS AND BULMA',
+        title: `Covid19 Report`,
+        describe:`Dados atualizados da covid no Brasil e no Mundo.`,
+        link:'https://github.com/MrSamwell/covid19-report',
+        page:'https://mrsamwell.github.io/covid19-report/'
     }
     ],
     cardBlog:[
