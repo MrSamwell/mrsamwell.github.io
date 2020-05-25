@@ -5,13 +5,16 @@ html, body{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+#app{
+    max-width: 1900px;
+    margin: auto;
+}
 .tab{
     margin-left: 8%;
 }
 
 body{
-    background-color: #151515;
+    background: linear-gradient(180deg, #212121 0%, #1A1A1A 0.01%, #151515 70.31%), #151515;
     color: #F3F2F0;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     height: 100%;
