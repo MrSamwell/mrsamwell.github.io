@@ -14,7 +14,8 @@ html, body{
 }
 
 body{
-    background: linear-gradient(180deg, #212121 0%, #1A1A1A 0.01%, #151515 70.31%), #151515 fixed;
+    background: linear-gradient(180deg, #212121 0%, #1A1A1A 0.01%, #151515 70.31%), #151515;
+    background-attachment: fixed;
     color: #F3F2F0;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     height: 100%;
